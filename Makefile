@@ -1,2 +1,2 @@
 all:
-	GO_PATH=. go build -o fix-chrome-internal-tlds
+	GOPATH=$(CURDIR) go build -o fix-chrome-internal-tlds
